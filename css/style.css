@@ -10,8 +10,8 @@ h4{
     font-size: 30px;
 }
 p{
-    color: aqua;
-    background-color: brown;
+    color: rgb(6, 7, 7);
+   
     font-size: 20px;
 }
 .heading1{
@@ -93,4 +93,45 @@ p{
 {
     text-decoration: overline underline line-through;
 
+}
+.t_word_space
+{
+    word-spacing: 50px;
+}
+.t_letter_space{
+    letter-spacing: 26px;
+}
+.para_line_height
+{
+    line-height: 30px;
+}
+.t_shadow{
+    color: rgb(127, 255, 148);
+    text-shadow: 4px 7px 0px rgb(185, 70, 4);
+    font-size: 60px;
+}
+.t_shadow1{
+    color: rgb(85, 1, 12);
+    text-shadow: 9px 0px 3px rgb(3, 160, 42);
+    font-size: 60px;
+}
+.t_shadow2{
+    color: rgb(248, 74, 5);
+    text-shadow: 0px 4px 4px rgb(71, 3, 134);
+    font-size: 60px;
+}
+.img_b_shadow{
+    box-shadow: 5px 8px 6px orangered;
+    width: 300px;
+    height: 200px;
+}
+.img1_b_shadow{
+    box-shadow: 17px 14px 9px blue;
+    width: 280px;
+    height: 180px;
+}
+.img2_b_shadow{
+    box-shadow: 9px 9px 5px green;
+    width: 260px;
+    height: 170px;
 }
