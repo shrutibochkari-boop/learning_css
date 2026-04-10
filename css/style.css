@@ -135,3 +135,112 @@ p{
     width: 260px;
     height: 170px;
 }
+
+.img_border{
+    border: 10px solid greenyellow;
+    border-radius: 50px 70px;
+}
+.img1_border{
+    border: 10px dashed rgb(2, 196, 147);
+    
+}
+.img2_border{
+    border: 9px dotted rgb(3, 92, 143);
+}
+
+.img3_border{
+    border: 14px double black ;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.img4_border{
+    border: 13px inset violet;
+}
+.img5_border{
+    border: 15px outset rgb(253, 36, 7);
+}
+.img6_border{
+    border: 13px groove rgb(245, 94, 120);
+    border-radius: 30px 40px 30px 40px;
+}
+.img7_border{
+    border: 12px groove rgb(145, 2, 2);
+    border-color: red black;
+}
+.b_model{
+    border: 6px solid blue;
+    padding: 20px 40px;
+    margin: 80px;
+
+}
+.b1_model{
+    border: 8px double red;
+    padding: 30px 60px;
+    margin: 70px;
+}
+.b2_model{
+    border: 11px dashed black;
+    padding: 20px 40px;
+    margin: 5px;
+
+}
+.b3_model{
+    border: 15px dotted rgb(1, 82, 107);
+    padding: 20px 40px;
+    margin: 50px;
+
+}
+.b4_model{
+    border: 14px groove rgb(104, 148, 2);
+    padding: 40px 60px;
+    margin: 75px;
+
+}
+.b5_model{
+    border: 17px outset rgb(243, 114, 8);
+    padding: 20px 40px;
+    margin: 44px;
+
+}
+.b_img_model{
+    border: 20px groove purple;
+    padding: 50px 60ox;
+    margin: 50px;
+}
+.f_family{
+    font-family: 'Times New Roman', Times, serif;
+}
+.f1_family{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.f2_family{
+    font-family:fantasy;
+}
+.f3_family{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f4_family{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f_weight{
+    font-weight: 200px;
+    font-size: 120px;
+}
+.bglinear{
+    font-size: 60px;
+    height: 200px;
+    background: linear-gradient(orange,white,green);
+
+}
+.bgradial{
+    font-size: 60px;
+    height: 250px;
+    background: radial-gradient(circle at left top,black,red,black,red,black,red);
+
+}
+.bgconic{
+    height: 300px;
+    background:conic-gradient(from 90deg,blue,rgb(216, 209, 209),blue,rgb(221, 205, 205),rgb(100, 8, 248));
+}
