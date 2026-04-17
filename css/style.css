@@ -1,6 +1,6 @@
 h3{
-    color: antiquewhite;
-    background-color: blueviolet;
+    color: rgb(10, 10, 9);
+   
     font-size: 30px;
     
 }
@@ -279,6 +279,9 @@ p{
     padding: 15px;
     font-size: 20px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex_container{
     display: flex;
@@ -301,4 +304,82 @@ p{
     font-size: 20px;
     margin: 10px;
     
+}
+h1:hover{
+    color: brown;
+    background-color: aqua;
+    font-size: 80px;
+    text-shadow: 3px 7px 5px black
+}
+.heading:hover{
+    color: rgb(218, 87, 11);           
+}
+h3:active{
+    color: chartreuse;
+    font-size: 70px;
+    font-family: cursive;
+    cursor: pointer;
+}
+input:focus{
+    background-color: aquamarine;
+    color: black;
+    border: 5px solid red;
+}
+a:visited{
+    color: green;
+}
+p::first-letter{
+    color: rgb(243, 33, 5);
+    font-size: 50px;
+}
+::selection{
+    color: brown;
+    background-color: rgb(203, 243, 23);
+}
+p::first-line{
+    color: crimson;
+    font-size: 30px;
+}
+.box0{
+    background-color: crimson;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 1s linear 500ms;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 9px;
+    gap: 40px;
+}
+.box11:hover{
+    transform: translate(125px, 125px);
+
+}
+.box22:hover{
+    transform: translateX(40px);
+}
+.box33:hover{
+    transform: translateY(50px);
+}
+.box44:hover{
+    transform: rotate(360deg)
+}
+.box55:hover{
+    transform: skewY(10deg);
+}
+.box66:hover{
+    transform: scale(2);
+}
+.box77:hover{
+    transform: rotate(360deg) scale(1,2) translateY(30px);
 }
